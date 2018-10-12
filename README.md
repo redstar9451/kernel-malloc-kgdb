@@ -29,3 +29,5 @@ $4 = -1
 0x8094f031 <boot_command_line+29>
 1 pattern found.
 ```
+
+Sugest putting malloc.c into <kernel_root>/mm direcotry.
