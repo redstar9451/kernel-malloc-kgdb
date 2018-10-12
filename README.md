@@ -3,7 +3,7 @@ If not, the operations will fail and return the message: *evaluation of this exp
 
 The failed operations are useful for debugging, kernel-malloc-kgdb implement the funcions of malloc() and free() to support them.
 
-kernel-malloc-kgdb use a global char array as the memory area for sbrk(), the size is 8M.
+kernel-malloc-kgdb uses a global char array as the memory area for sbrk(), the size is 8M.
 
 GDB failed operations examples:
 
