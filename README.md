@@ -30,4 +30,4 @@ $4 = -1
 1 pattern found.
 ```
 
-Sugest putting malloc.c into <kernel_root>/mm direcotry.
+Suggest putting malloc.c into <kernel_root>/mm direcotry.
