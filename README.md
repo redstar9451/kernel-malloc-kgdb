@@ -1,4 +1,4 @@
-The gdb operations using string-arguments require that the attached application implemented the funcion malloc.
+The gdb operations using string-alike arguments require that the attached application implemented the funcion malloc.
 If not, the operations will fail and return the message: evaluation of this expression requires the program to have a function "malloc".
 
 The failed operations are useful for debugging, kernel-malloc-kgdb implement the funcions of malloc() and free() to support them.
