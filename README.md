@@ -1,7 +1,7 @@
 The gdb operations using string-alike arguments require that the attached application implemented the funcion malloc.
 If not, the operations will fail and return the message: *evaluation of this expression requires the program to have a function "malloc".*
 
-The failed operations are useful for debugging, kernel-malloc-kgdb implement the funcions of malloc() and free() to support them.
+String-alike arguments are convenient for debugging, kernel-malloc-kgdb implement the funcions of malloc() and free() to support them.
 
 kernel-malloc-kgdb uses a global char array as the memory area for sbrk(), the size is 8M.
 
@@ -30,4 +30,4 @@ $4 = -1
 1 pattern found.
 ```
 
-Suggest putting malloc.c into <kernel_root>/mm direcotry.
+Suggest to put malloc.c into <kernel_root>/mm direcotry.
